@@ -190,7 +190,7 @@ const Contact = () => {
             align="center" 
             flexWrap="wrap"
           >
-            <a href="tel:7817032067" target="_blank" rel="noreferrer">
+            <a href="tel:8127356216" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<HiOutlinePhone size={24} />}
                 aria-label="Phone"
@@ -201,7 +201,7 @@ const Contact = () => {
                 size="lg"
               />
             </a>
-            <a href="mailto:khushikatara041@gmail.com" target="_blank" rel="noreferrer">
+            <a href="mailto:suyashrajput45@gmail.com" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<HiOutlineMail size={24} />}
                 aria-label="Mail"
@@ -212,7 +212,7 @@ const Contact = () => {
                 size="lg"
               />
             </a>
-            <a href="https://www.linkedin.com/in/harshita-katara-09904b246/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/suyashismm/" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<FaLinkedin size={24} />}
                 aria-label="LinkedIn"
@@ -223,7 +223,7 @@ const Contact = () => {
                 size="lg"
               />
             </a>
-            <a href="https://github.com/amanshrivastava1000" target="_blank" rel="noreferrer">
+            <a href="https://github.com/suyashismm" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<FaGithub size={24} />}
                 aria-label="GitHub"
@@ -238,7 +238,7 @@ const Contact = () => {
         </Box>
 
         <Text mt={10} fontSize="sm" color="gray.400">
-          © {new Date().getFullYear()} Harshita Katara. All rights reserved.
+          © {new Date().getFullYear()} Suyash rajput. All rights reserved.
         </Text>
       </Box>
     </Box>

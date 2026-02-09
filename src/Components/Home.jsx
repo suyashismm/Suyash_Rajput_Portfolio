@@ -24,7 +24,7 @@ import {
   IoLogoBitcoin,
   IoSearchSharp,
 } from "react-icons/io5";
-import photo from "../Image/Harshita_katara_img.png"
+import photo from "../Image/Suyash_profile.jpg"
 import { ReactElement } from "react";
 import { BiDownload } from "react-icons/bi";
 // import Resume from "./Harshita-Katara-Resume.pdf";

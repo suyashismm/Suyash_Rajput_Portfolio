@@ -13,7 +13,7 @@ import { BsGithub } from "react-icons/bs";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-function HelperProject({ image, title, techStack, desc, github, deploy }) {
+function HelperProject({ image, title, techStack, desc, github, deploy,githubBtn }) {
     useEffect(() => {
       // Initialize AOS
       AOS.init({
@@ -83,9 +83,9 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
 
       <Flex justifyContent="space-between" p={4}>
         <Link href={github} isExternal>
-          <Button size="sm" colorScheme="teal" leftIcon={<BsGithub />}>
+          {githubBtn && <Button size="sm" colorScheme="teal" leftIcon={<BsGithub />}>
             GitHub
-          </Button>
+          </Button>}
         </Link>
         <Link href={deploy} isExternal>
           <Button size="sm" colorScheme="teal" variant="outline" leftIcon={<BiLinkExternal />}>

@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import photo from "../Image/Harshita_katara_img.png"
+import photo from "../Image/Suyash_profile.jpg"
 import { motion } from 'framer-motion';
 console.log(photo)
 const BlogTags = (props) => {
