@@ -32,9 +32,13 @@ export default function Navbar() {
   };
 
   function handleResume() {
+<<<<<<< HEAD
     return window.open(
       "https://drive.google.com/file/d/1sZvYAa07Asulgct75MCxVVZwRpB8VehF/view"
     );
+=======
+    return window.open("https://drive.google.com/file/d/1oyU__E81oJIiIYzIecFwLGcHtzzfsK-G/view?usp=drivesdk");
+>>>>>>> 4f259bf977083ec94ca1a00068351cd133ef7432
   }
 
   return (
@@ -54,11 +58,16 @@ export default function Navbar() {
         m="auto"
         width={"94%"}
       >
+<<<<<<< HEAD
         <Box
           w={{ base: "50%", sm: "100%" }}
           fontSize={{ lg: "20px", base: "16px" }}
         >
           <Text as="b">{"Aman Shrivastava"}</Text>
+=======
+        <Box w={{ base: "50%", sm: "100%" }} fontSize={{ lg: "20px", base: "16px" }} >
+          <Text as='em'>{"<Suyash Rajput/>"}</Text>
+>>>>>>> 4f259bf977083ec94ca1a00068351cd133ef7432
         </Box>
 
         {/* Desktop Menu */}
@@ -100,6 +109,7 @@ export default function Navbar() {
               onClick={handleResume}
             >
               <span>
+<<<<<<< HEAD
                 <a
                   id="resume-link-1"
                   download="Aman-shrivastava.pdf"
@@ -107,6 +117,16 @@ export default function Navbar() {
                 >
                   Resume
                 </a>
+=======
+              <a
+                id="resume-link-1"
+                // href={Resume}
+                download="Suyash-Rajput-Resume.pdf"
+                style={{ textDecoration: "none" }}
+              >
+                Resume
+              </a>
+>>>>>>> 4f259bf977083ec94ca1a00068351cd133ef7432
               </span>
             </Button>
             <Button onClick={toggleColorMode} size="sm">

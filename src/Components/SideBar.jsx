@@ -60,14 +60,18 @@ export default function DrawerExample({ handleClickScroll, handleResume,activeTa
                 variant="solid"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1laXdjw9Qyg-jQRMjw8sVn6J1FBRwSOtj/view?usp=sharing"
+                    "https://drive.google.com/file/d/1oyU__E81oJIiIYzIecFwLGcHtzzfsK-G/view?usp=drivesdk"
                   )
                 }
               >
                 <span>
                   <a
                     // href={Resume}
+<<<<<<< HEAD
                     download="Aman-shrivastava-Resume.pdf"
+=======
+                    download="Suyash-Rajput-Resume.pdf"
+>>>>>>> 4f259bf977083ec94ca1a00068351cd133ef7432
                     style={{ textDecoration: "none", color: "inherit" }}
                   >
                     Resume
