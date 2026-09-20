@@ -92,7 +92,7 @@ const Contact = () => {
           
           <Box
             as="form"
-            action="https://getform.io/f/28236467-0f44-496b-80a3-8b3034c09c92"
+            action="https://forminit.com/f/wqx09hr3pez"
             method="POST"
             w={formWidth}
             bg={useColorModeValue("white", "gray.700")}
@@ -107,7 +107,7 @@ const Contact = () => {
                   <FormLabel>Your Name</FormLabel>
                   <Input 
                     type="text" 
-                    name="name" 
+                    name="fi-sender-fullName"
                     placeholder="John Doe" 
                     bg={useColorModeValue("white", "gray.600")}
                     color={useColorModeValue("black", "white")}
@@ -119,7 +119,7 @@ const Contact = () => {
                   <FormLabel>Email Address</FormLabel>
                   <Input 
                     type="email" 
-                    name="email" 
+                    name="fi-sender-email"
                     placeholder="john@example.com" 
                     bg={useColorModeValue("white", "gray.600")}
                     color={useColorModeValue("black", "white")}
@@ -132,7 +132,7 @@ const Contact = () => {
                 <FormLabel>Phone Number</FormLabel>
                 <Input 
                   type="tel" 
-                  name="number" 
+                  name="fi-sender-phone" 
                   placeholder="+1 (123) 456-7890" 
                   bg={useColorModeValue("white", "gray.600")}
                   color={useColorModeValue("black", "white")}
@@ -143,7 +143,7 @@ const Contact = () => {
               <FormControl isRequired>
                 <FormLabel>Your Message</FormLabel>
                 <Textarea 
-                  name="message" 
+                  name="fi-text-message"
                   placeholder="Tell me about your project or inquiry..." 
                   rows={5} 
                   bg={useColorModeValue("white", "gray.600")}

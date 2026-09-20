@@ -40,7 +40,7 @@ const [activeTab,setActiveTab]=useState("")
   };
 
   function handleResume() {
-    return window.open("https://drive.google.com/file/d/1pmyHuyBfUAFTWPm4y1g8HpnZbp6zejMx/view?usp=drivesdk");
+    return window.open("https://drive.google.com/file/d/1oyU__E81oJIiIYzIecFwLGcHtzzfsK-G/view?usp=drivesdk");
   }
 
   return (
@@ -107,7 +107,7 @@ const [activeTab,setActiveTab]=useState("")
               <a
                 id="resume-link-1"
                 // href={Resume}
-                download="Harshita-katara-Resume.pdf"
+                download="Suyash-Rajput-Resume.pdf"
                 style={{ textDecoration: "none" }}
               >
                 Resume

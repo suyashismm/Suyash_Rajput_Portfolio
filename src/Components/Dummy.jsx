@@ -69,7 +69,7 @@ const About = () => {
               src={photo}
               h="280px"
               w="320px"
-              alt="Harshita Katara"
+              alt="Suyash Rajput"
               data-aos="zoom-in"
             />
           </Flex>
@@ -88,7 +88,7 @@ const About = () => {
               color="gray.700"
               data-aos="fade-up"
             >
-              Hello! My name is Harshita Katara, and I am a skilled full stack web developer...
+              Hello! My name is Suyash Rajput, and I am a skilled full stack web developer...
             </Text>
           </VStack>
         </Flex>

@@ -29,6 +29,8 @@ function HelperProject({ image, title, techStack, desc, github, deploy,githubBtn
   
       return () => clearTimeout(timer);
     }, []);
+
+    console.log(title,title.includes("Maritime"))
   return (
     <Box
       className="project-card"
@@ -88,7 +90,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy,githubBtn
           </Button>}
         </Link>
         <Link href={deploy} isExternal>
-          <Button size="sm" colorScheme="teal" variant="outline" leftIcon={<BiLinkExternal />}>
+          <Button cursor="pointer" isDisabled={title.includes("Maritime")} size="sm" colorScheme="teal" variant="outline" leftIcon={<BiLinkExternal />}>
             Live
           </Button>
         </Link>

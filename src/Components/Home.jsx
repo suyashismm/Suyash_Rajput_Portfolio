@@ -24,7 +24,7 @@ import {
   IoLogoBitcoin,
   IoSearchSharp,
 } from "react-icons/io5";
-import photo from "../Image/Suyash_profile.jpg"
+import photo from "../Image/Suyash_profile.jpeg"
 import { ReactElement } from "react";
 import { BiDownload } from "react-icons/bi";
 // import Resume from "./Harshita-Katara-Resume.pdf";
@@ -159,9 +159,9 @@ export default function Home() {
                   <span>
                   <a
                     id="resume-link-2"
-                    href="https://drive.google.com/file/d/1pmyHuyBfUAFTWPm4y1g8HpnZbp6zejMx/view?usp=drivesdk"
-                    download="Harshita-Katara-Resume.pdf"
-                    style={{
+                    href="https://drive.google.com/file/d/1oyU__E81oJIiIYzIecFwLGcHtzzfsK-G/view?usp=drivesdk"
+                    download="Suyash-Rajput-Resume.pdf"
+                    style={{  
                       textDecoration: "none",
                       color: "inherit",
                     }}
@@ -225,7 +225,7 @@ export default function Home() {
                 </Box>
 
               </a>
-              <a href="tel:7817032067">
+              <a href="tel:8127356216">
                 <Box bgColor={useColorModeValue("black", "white")} borderRadius="100%" p={2} _hover={{
                   animation: "4s ease infinite",
                   transform: "scale(1.06)",

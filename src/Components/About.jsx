@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import photo from "../Image/Suyash_profile.jpg"
+import photo from "../Image/Suyash_profile.jpeg"
 import { motion } from 'framer-motion';
 console.log(photo)
 const BlogTags = (props) => {
@@ -98,23 +98,24 @@ const About = () => {
         marginTop={{ base: "5", sm: "5" }}
         justifyContent={{ base: "space-between", lg: "space-between" }}
       >
-        <Box data-aos="fade-right">
+        <Box data-aos="fade-right" maxWidth={{ base: "60%", md: "100%", lg: "40%" }}>
           <Flex
             // border={"5px solid red"}
-            width={{ base: "60%", md: "40%", lg: "85%" }}
+            // maxWidth={{ base: "60%", md: "40%", lg: "40%" }}
             justifyContent={"center"}
             textAlign={"center"}
-            m="auto"
+            // m="auto"
             zIndex="2"
             border="4px solid whiteAlpha"
+            // border="4px solid red"
 
           >
             <Image
               textAlign={"center"}
-              class="home-img"
+              // class="home-img"
               // borderRadius="100%"
               src={photo}
-              h="280px"
+              h="300px"
               w="320px"
               alt="some good alt text"
             // objectFit="cover"
@@ -134,7 +135,7 @@ const About = () => {
 
 
             <Text fontSize="16px" lineHeight="tall" color={useColorModeValue("gray.700", "gray.300")}>
-              Hello! My name is Suyash Rajput, and I am a skilled full stack web developer with a expertise in Mern Stack. My efficiency spans both front-end and back-end development, allowing me to build seamless user-friendly web applications from the ground up and to tackle complex development challenges. I am passionate about creating innovative solutions that enhance user experiences and drive business success. With a commitment to continuous learning and a strong foundation in software development, I am excited to contribute to dynamic projects and collaborate with forward-thinking teams.
+              Hello! My name is Suyash Rajput,I am a Full Stack Developer with 2.5+ years of experience building data-intensive web applications using React, TypeScript/JavaScript, Node.js, Express.js, Python, FastAPI, PostgreSQL, PostGIS, and geospatial data technologies. Experienced in designing RESTful APIs, dynamic database queries, spatial data workflows, and interactive map-based applications.I enjoy building interactive mapping solutions and data-driven applications that deliver both performance and usability. I'm passionate about clean code, UI/UX best practices, and continuously learning new tools and frameworks. Whether it's optimizing performance or integrating complex map functionalities, I thrive on turning ideas into seamless user experiences.
             </Text>
 
 

@@ -29,9 +29,9 @@ const ExperienceTimeline = () => {
         {
             company: "Suhora Technologies",
             url: "https://www.readeasy.app",
-            position: "Web Developer - Fulltime",
+            position: "Software Developer",
             duration: "Feb, 2024 - Present",
-            description: `Built a SaaS based Satellite Image Visualizing(E-commerce) platform through which user can search different types of satellite images(SAR,Optical,Thermal) over the map and can see details and order the satellite image.Also developed SaaS based Maritime Domain Awareness System (MDAS) to track and monitor maritime activities using satellite data, enhancing maritime security and situational awareness.`
+            description: ["Developed responsive single-page web applications using React and TypeScript, leveraging RTK Query and Redux-Toolkit for optimized server/client state management.","Designed, built, and maintained high-throughput RESTful APIs using Python (FastAPI) to serve complex spatial, raster, and vector data workflows.","Implemented Role-Based Access Control (RBAC), secure token authentication, and containerized microservices using Docker for streamlined multi-environment deployment.","Managed spatial data models and spatial queries using PostgreSQL with PostGIS, optimizing query response times for multi-source enterprise geospatial datasets."]
         }
     ];
 
@@ -185,7 +185,16 @@ const ExperienceCard = ({ company, url, position, duration, description }) => {
                     {duration}
                 </Text>
                 <Text color="gray.300" fontSize={{ base: "sm", md: "md" }}>
-                    {description}
+                    ● {description[0]}
+                </Text>
+                <Text color="gray.300" fontSize={{ base: "sm", md: "md" }}>
+                    ● {description[1]}
+                </Text>
+                <Text color="gray.300" fontSize={{ base: "sm", md: "md" }}>
+                    ● {description[2]}
+                </Text>
+                <Text color="gray.300" fontSize={{ base: "sm", md: "md" }}>
+                    ● {description[3]}
                 </Text>
             </Box>
         </Box>
